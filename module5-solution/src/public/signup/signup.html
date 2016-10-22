@@ -37,7 +37,7 @@
 		  <div class="form-group">
 		    <label for="menunumber">Menu number (short name) of your favorite dish</label>
 		    <input type="text" class="form-control" id="menunumber" placeholder="Enter menu number of your favorite dish" ng-model="SignupCtrl.favDish" name="menunumber" required>
-		    	<span class="err-span" ng-if="signupForm.menunumber.$invalid && signupForm.phonenumber.$touched">
+		    	<span class="err-span" ng-if="signupForm.menunumber.$invalid && signupForm.menunumber.$touched">
 	            	Menu Number (short name) is required.
 	          	</span>
 		  </div>
